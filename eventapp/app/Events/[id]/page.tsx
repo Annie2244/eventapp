@@ -45,7 +45,7 @@ export default function EventDetailPage({ params }: EventDetailProps) {
       </button>
 
       <a href="/events" className="mt-6 inline-block text-blue-600 hover:underline">
-        <- Back to All Events
+        {"<- Back to All Events"}
       </a>
     </div>
   );
